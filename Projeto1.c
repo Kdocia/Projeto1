@@ -1,32 +1,8 @@
 #include <stdio.h>
 
-// Primeira função: Soma todos os elementos definidos no array
-
-double somar(double array[], int tamanho){
-    double soma = 0.0;
-    for (int i=0; i<tamanho; i++){
-        soma += array[i];
-    }
-    return soma;
-}
-
-// Segunda função: Encontrar o valor máximo
-double maximoValor(double array[], int tamanho){
-    double vmax = array[0];
-    for (int i=1; i < tamanho; i++) {
-        if (array[i] > vmax) {
-            vmax = array[i];
-        }
-    }
-    return vmax;
-}
-
-// Terceira função: Realiza a média dos elementos do array
-double media(double array[], int tamanho){
-    double soma = somar(array, tamanho);
-    double media = soma / tamanho;
-    return media;
-}
+#include "Somar.h"
+#include "maximoValor.h"
+#include "media.h"
 
 int main(){
     int tamanhoArray;
