@@ -8,7 +8,7 @@ Primeiramento deve-se colocar todos os arquivos em uma mesma pasta, pelo termina
 Ao executar deverá ser fornecido alguns valores de entrada, sendo o primeiro o tamanho que se deseja para o array que será criado e em seguida poderá inserir os valores de cada elemento do array que deseja-se criar.
 
 O programa irá retornar um print com as seguintes informações: 
-       -Soma de todos elementos do array 
-       -O maior valor presente no array
-       -A média dos elementos do array
+* Soma de todos elementos do array 
+* O maior valor presente no array
+* A média dos elementos do array
 
